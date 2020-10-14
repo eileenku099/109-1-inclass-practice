@@ -1,0 +1,38 @@
+num <- c(1.5, 2, 3)
+int <- c(1L, 3L, -2L)
+char <- c("1.5","2","3")
+logi <- c(T,T,F)
+
+typeof(num)
+typeof(int)
+typeof(char)
+typeof(logi)
+
+class(num)
+class(int)
+class(char)
+class(logi)
+
+1+1.5
+
+# 10位學生的主系
+majors10_char <- c('經濟學系','社會學系','社會學系','經濟學系','經濟學系','社會學系','經濟學系','經濟學系','經濟學系','社會學系')
+
+typeof(majors10_char)
+class(majors10_char)
+
+majors10_factor <- factor(majors10_char)
+# 或
+majors10_factor <- factor(
+  c('經濟學系','社會學系','社會學系','經濟學系','經濟學系','社會學系','經濟學系','經濟學系','經濟學系','社會學系')
+)
+
+typeof(majors10_factor)
+class(majors10_factor)
+
+a<-"1"
+as.numeric(a)->a
+a+4
+
+a<-factor(c("一","二","三"))
+
